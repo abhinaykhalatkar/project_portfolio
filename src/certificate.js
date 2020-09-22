@@ -1,3 +1,4 @@
+import {API_Keys} from "./API_Keys"
 const axios = require('axios');
 export class Certificate {
   constructor() {
@@ -35,7 +36,7 @@ export class Certificate {
       this.certificateWindow = document.querySelector('.scroll-window-wrapper');
       const self = this;
       axios
-        .get('https://abhinay-portfolio.firebaseio.com/certificates/.json')
+        .get(API_Keys.certificatesKey)
         .then(function(response) {
           if (response.status >= 300) {
             self.certificateWindow.innerHTML =

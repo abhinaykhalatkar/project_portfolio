@@ -1,3 +1,4 @@
+import {API_Keys} from "./API_Keys"
 const axios = require('axios');
 export class Projects {
   constructor() {
@@ -17,7 +18,7 @@ export class Projects {
      </div>`
   const projectWindow=document.querySelector("#style-3");
   const inputTableEl=document.querySelector("#rowInputPro");
-   axios.get('https://abhinay-portfolio.firebaseio.com/projects/.json')
+   axios.get(API_Keys.projectsKeys)
    .then(function (response) {
     if (response.status >= 300) {
       projectWindow.innerHTML =
