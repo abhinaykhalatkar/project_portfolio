@@ -46,9 +46,9 @@ export class Projects {
           <td class="proName" colspan="2">${pdata.name}</td>
         </tr>
          <tr class="btnRow">
-          <td><button class="gitBtn"><a href="${pdata.git}">Git</a></button></td>
-          <td colspan="2"><button class="codepen"><a href="${pdata.codepen}">Codepen</a></button></td>
-         <td><button class="siteBtn"><a href="${pdata.url}">Project site</a></button></td>
+          <td><button class="gitBtn"><a href="${pdata.git}" target="_blank">Git</a></button></td>
+          <td colspan="2"><button class="codepen"><a href="${pdata.codepen}" target="_blank">Codepen</a></button></td>
+         <td><button class="siteBtn"><a href="${pdata.url}" target="_blank">Project site</a></button></td>
        </tr>
      </table>                                 
     `;
