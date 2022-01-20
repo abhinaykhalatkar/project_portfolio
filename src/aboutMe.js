@@ -3,7 +3,8 @@ export class About {
     this.aboutModal = document.querySelector('#inputContent1');
 
     this.aboutMeIntro=`
-    I'm a novice Web Developer based in India, currently pursuing my bachelors.
+    I'm a novice Web Developer based in Mannheim,Germany. 
+    currently pursuing my Masters in Applied Computer Science.
 I like the feel I get when I create something useful out of nothing. 
 Sometimes I stay up so late coding that I have my morning coffee before i go to bed.`
     
@@ -44,7 +45,7 @@ Sometimes I stay up so late coding that I have my morning coffee before i go to 
         "Love of Learning",
       "Flexibility","hardworking"];
         this.otherSkill=[
-          "Cooking","badminton","NBA"];
+          "Cooking","badminton"];
   }
 
   render() {

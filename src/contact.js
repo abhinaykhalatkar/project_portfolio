@@ -11,7 +11,7 @@ export class Contact {
       this.contactModal.innerHTML = `
       <div class="directContact">
       <h5>Contact Me <br>Directly At</h5>
-      <p>Abhinay Khalatkar<br>Nagpur, IN<br><a href="mailto:${this.email}">${this.email}</a></p>
+      <p>Abhinay Khalatkar<br>Mannheim ,Germany<br><a href="mailto:${this.email}">${this.email}</a></p>
       </div>
       <div id="otherContact">
        <h5>Lets Get Social</h5>
